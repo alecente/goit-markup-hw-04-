@@ -139,8 +139,9 @@ h2{
 }
 
 .bgima{
-	background-image: linear-gradient(
-      0deg,
+	background-color: #2f303a;
+  	background-image: linear-gradient(
+      to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),url(../images/imagen17.jpg);
@@ -148,6 +149,7 @@ h2{
   	background-repeat: no-repeat;
   	background-position: center;
   	max-width: 1600px;
+	min-height: 100%;
 	margin: 0 auto;
   	text-align: center;
   	padding-top: 200px;
